@@ -12,6 +12,8 @@ public class Tester {
 		
 		em.getTransaction().begin();
 		Person p = new Person();
+		OrderTypes ot = new OrderTypes();
+		
 		
 		p.setAge(34);
 		p.setFirstName("Chad");

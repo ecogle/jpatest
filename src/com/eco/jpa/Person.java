@@ -1,11 +1,17 @@
 package com.eco.jpa;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
+
+import org.eclipse.persistence.jpa.config.Cascade;
 
 @Entity
 public class Person {
@@ -29,6 +35,10 @@ public class Person {
 	
 	@Column(name="MIDDLE_INIT")
 	private String middleInit;
+	
+	@OneToMany(cascade=CascadeType.ALL, mappedBy="person")
+	private List<Orders> orders;
+	
 
 	public Long getId() {
 		return id;
@@ -76,6 +86,14 @@ public class Person {
 
 	public void setMiddleInit(String middleInit) {
 		this.middleInit = middleInit;
+	}
+
+	public List<Orders> getOrders() {
+		return orders;
+	}
+
+	public void setOrders(List<Orders> orders) {
+		this.orders = orders;
 	}
 
 	
