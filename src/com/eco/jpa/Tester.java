@@ -16,7 +16,7 @@ public class Tester {
 		p.setAge(34);
 		p.setFirstName("Chad");
 		p.setLastName("Ogle");
-		p.setEmail("ecogle@gmail.com");
+		p.setEmail("ecogle@gmail.come");
 		p.setMiddleInit("E");
 		
 		em.persist(p);
