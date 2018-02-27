@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_161">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ecogle/Database Drivers/eclipselink-2.7.1.v20171221-bd47e8f/eclipselink/jlib/moxy/jaxb-core_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ecogle/Database Drivers/eclipselink-2.7.1.v20171221-bd47e8f/eclipselink/jlib/moxy/jaxb-xjc_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ecogle/Database Drivers/eclipselink-2.7.1.v20171221-bd47e8f/eclipselink/jlib/moxy/org.glassfish.javax.json_1.0.4.v201311181159.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ecogle/Database Drivers/mysql-connector-java-5.1.29.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ecogle/Database Drivers/eclipselink-2.7.1.v20171221-bd47e8f/eclipselink/jlib/jpa/javax.persistence_2.2.0.v201708071007.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ecogle/Database Drivers/eclipselink-2.7.1.v20171221-bd47e8f/eclipselink/jlib/eclipselink.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
